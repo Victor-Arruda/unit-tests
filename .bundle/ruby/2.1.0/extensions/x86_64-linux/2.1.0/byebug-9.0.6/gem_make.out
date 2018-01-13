@@ -1,0 +1,20 @@
+current directory: /home/otavio/unit-tests/.bundle/ruby/2.1.0/gems/byebug-9.0.6/ext/byebug
+/home/otavio/.rvm/rubies/ruby-2.1.5/bin/ruby -r ./siteconf20180113-28599-dpzywc.rb extconf.rb
+creating Makefile
+
+current directory: /home/otavio/unit-tests/.bundle/ruby/2.1.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/otavio/unit-tests/.bundle/ruby/2.1.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling breakpoint.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/otavio/unit-tests/.bundle/ruby/2.1.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20180113-28599-82vnt2/byebug
+installing default byebug libraries

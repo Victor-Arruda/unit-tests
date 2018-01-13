@@ -17,4 +17,12 @@ class User
     return last_name.reverse if last_name
     "O que diabos é o inverso de nulo?"
   end
+
+  def has_name?
+
+  end
+
+  def has_last_name?
+
+  end
 end
