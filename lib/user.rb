@@ -14,7 +14,7 @@ class User
 
   def say_my_name_reverse
     return name.reverse if name
-    return last_name if last_name
+    return last_name.reverse if last_name
     "O que diabos é o inverso de nulo?"
   end
 end
