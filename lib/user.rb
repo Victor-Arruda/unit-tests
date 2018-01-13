@@ -19,10 +19,10 @@ class User
   end
 
   def has_name?
-
+    !name.nil?
   end
 
   def has_last_name?
-
+    !last_name.nil?
   end
 end
